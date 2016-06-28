@@ -20,7 +20,7 @@ class WeeklyWeatherTableTableViewController: UITableViewController, CLLocationMa
     @IBOutlet weak var sunSetLabel: UILabel!
     
     var currentWeather: CurrentWeatherSnapShot!
-    var weeklyWeatherList : [[String : AnyObject]]?
+    var weeklyWeatherList: [[String : AnyObject]]?
     var weeklyWeather: [WeeklyWeather] = []
     var foreCastAPIClient: ForecastAPIClient!
     

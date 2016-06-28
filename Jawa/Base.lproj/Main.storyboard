@@ -254,7 +254,7 @@
                                 <state key="normal" image="snow"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summary" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MXt-Fl-OSJ">
-                                <rect key="frame" x="264" y="197" width="73" height="21"/>
+                                <rect key="frame" x="28" y="197" width="544" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -284,6 +284,7 @@
                         <constraints>
                             <constraint firstItem="aJs-AI-Mbe" firstAttribute="centerX" secondItem="b8u-Rh-HWC" secondAttribute="centerX" id="2Ya-TQ-JzY"/>
                             <constraint firstAttribute="trailingMargin" secondItem="UzK-wZ-vzt" secondAttribute="trailing" constant="11" id="3Kt-nr-AF9"/>
+                            <constraint firstItem="MXt-Fl-OSJ" firstAttribute="leading" secondItem="pQs-sj-DG3" secondAttribute="leadingMargin" constant="8" id="3UV-LU-px1"/>
                             <constraint firstItem="Hjv-NE-Yad" firstAttribute="top" secondItem="022-UU-A9e" secondAttribute="bottom" constant="397" id="4r8-tu-JSP"/>
                             <constraint firstItem="bOC-RR-srP" firstAttribute="centerX" secondItem="dUY-6A-2iJ" secondAttribute="centerX" id="DNj-EE-w6W"/>
                             <constraint firstItem="dUY-6A-2iJ" firstAttribute="height" secondItem="bGW-8E-24z" secondAttribute="height" id="Dsi-dh-W7F"/>
@@ -295,7 +296,7 @@
                             <constraint firstItem="4ac-gt-kfz" firstAttribute="centerX" secondItem="Hjv-NE-Yad" secondAttribute="centerX" id="LcT-Wo-Pae"/>
                             <constraint firstItem="7uy-1u-sey" firstAttribute="top" relation="greaterThanOrEqual" secondItem="4ac-gt-kfz" secondAttribute="bottom" constant="25" id="O8e-Ua-lal"/>
                             <constraint firstItem="MXt-Fl-OSJ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="022-UU-A9e" secondAttribute="bottom" constant="30" id="OHe-ef-vtp"/>
-                            <constraint firstItem="MXt-Fl-OSJ" firstAttribute="centerX" secondItem="okp-ip-IiY" secondAttribute="centerX" id="QfT-0n-wU2"/>
+                            <constraint firstItem="MXt-Fl-OSJ" firstAttribute="centerX" secondItem="okp-ip-IiY" secondAttribute="centerX" constant="-0.5" id="QfT-0n-wU2"/>
                             <constraint firstItem="bGW-8E-24z" firstAttribute="leading" secondItem="SRQ-O3-4HK" secondAttribute="trailing" constant="20" id="QuB-Aq-ilF"/>
                             <constraint firstItem="dUY-6A-2iJ" firstAttribute="leading" secondItem="bGW-8E-24z" secondAttribute="trailing" constant="20" id="SqF-O2-q2L"/>
                             <constraint firstItem="gvE-Cm-agP" firstAttribute="top" secondItem="bGW-8E-24z" secondAttribute="bottom" constant="8" id="VGO-P0-Ja1"/>
@@ -321,6 +322,7 @@
                             <constraint firstItem="aJs-AI-Mbe" firstAttribute="top" secondItem="b8u-Rh-HWC" secondAttribute="bottom" constant="8" id="tYM-h2-zhO"/>
                             <constraint firstItem="bGW-8E-24z" firstAttribute="height" secondItem="SRQ-O3-4HK" secondAttribute="height" id="teL-4N-Gfj"/>
                             <constraint firstItem="b8u-Rh-HWC" firstAttribute="width" secondItem="SRQ-O3-4HK" secondAttribute="width" id="v3F-na-Fvh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MXt-Fl-OSJ" secondAttribute="trailing" constant="8" id="yLE-ze-nCD"/>
                             <constraint firstItem="UzK-wZ-vzt" firstAttribute="top" secondItem="022-UU-A9e" secondAttribute="bottom" constant="397" id="zg8-bB-9Uw"/>
                         </constraints>
                     </view>
