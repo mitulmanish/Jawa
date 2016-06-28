@@ -2,16 +2,21 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Jawa/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Jawa/APIClient.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Jawa/ForecastAPIClient.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Jawa/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Jawa/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Jawa/WeatherIconFactory.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Jawa/WeatherViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Jawa/CurrentWeatherSnapShot.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Jawa/WeeklyWeatherTableTableViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Jawa/APIClient.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Jawa/DailyWeather.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Jawa/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Jawa/WeeklyWeatherTableViewCell.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Jawa/ForecastAPIClient.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Jawa/AppDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Jawa/WeeklyWeather.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Jawa/APIKey.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Jawa/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Jawa/Base.lproj/Main.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Jawa/CurrentWeatherSnapShot.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Jawa/DetailedWeatherViewController.swift" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

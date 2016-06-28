@@ -19,6 +19,18 @@ struct CurrentWeatherSnapShot{
     var temperatureCelcius: Double {
         return ((self.temperature - 32) * 5)/9
     }
+    
+    var temperatureString: String {
+        return "\(Int(temperatureCelcius))º"
+    }
+    
+    var humidityString: String {
+        return "\(Int(humidity * 100))%"
+    }
+    
+    var precipitationProbabilityString: String {
+        return "\(Int(precipitationProbability * 100))%"
+    }
 }
 
 extension CurrentWeatherSnapShot: JSONDecodable {
@@ -37,19 +49,5 @@ extension CurrentWeatherSnapShot: JSONDecodable {
         self.precipitationProbability = precipitationProbability
         self.summary = summary
         self.currentWeatherIcon = WeatherIconFactory.toImage(iconString)
-    }
-}
-
-extension CurrentWeatherSnapShot {
-    var temperatureString: String {
-        return "\(Int(temperatureCelcius))º"
-    }
-    
-    var humidityString: String {
-        return "\(Int(humidity * 100))%"
-    }
-    
-    var precipitationProbabilityString: String {
-        return "\(Int(precipitationProbability * 100))%"
     }
 }

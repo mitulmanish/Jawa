@@ -19,25 +19,25 @@ class DetailedWeatherViewController: UIViewController {
     @IBOutlet weak var sunRiseLabel: UILabel!
     @IBOutlet weak var sunSetLabel: UILabel!
     @IBOutlet weak var summaryLabel: UILabel!
-     
-    
     @IBOutlet weak var weatherIcon: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         if let currentDay = self.currentDay {
             setUpView(currentDay)
+            setUpNavigationBarTitle(currentDay.day!)
         }
-
-        // Do any additional setup after loading the view.
+    }
+    
+    func setUpNavigationBarTitle(title: String) {
+         self.navigationItem.title = title
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-    func setUpView(currentDay: WeeklyWeather) -> () {
+    func setUpView(currentDay: WeeklyWeather) {
         humidityLabel.text = currentDay.humidityString
         rainChanceLabel.text = currentDay.precipitationProbabilityString
         maximumTemperature.text = currentDay.temperatureMaxString
@@ -46,20 +46,5 @@ class DetailedWeatherViewController: UIViewController {
         sunSetLabel.text = currentDay.sunsetTime
         summaryLabel.text = currentDay.summary
         weatherIcon.setImage(currentDay.icon, forState: .Normal)
-        
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-    
-    
-
 }

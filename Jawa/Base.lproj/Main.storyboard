@@ -244,14 +244,14 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okp-ip-IiY">
-                                <rect key="frame" x="285" y="275" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okp-ip-IiY">
+                                <rect key="frame" x="271" y="270" width="59" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="BVR-VY-vbh"/>
-                                    <constraint firstAttribute="width" constant="30" id="Pyv-C9-fxk"/>
-                                    <constraint firstAttribute="width" secondItem="okp-ip-IiY" secondAttribute="height" multiplier="3:2" constant="-15" id="VQW-q7-rVf"/>
+                                    <constraint firstAttribute="height" constant="60" id="BVR-VY-vbh"/>
+                                    <constraint firstAttribute="width" constant="59" id="Pyv-C9-fxk"/>
+                                    <constraint firstAttribute="width" secondItem="okp-ip-IiY" secondAttribute="height" multiplier="3:2" constant="-31" id="VQW-q7-rVf"/>
                                 </constraints>
-                                <state key="normal" image="wind"/>
+                                <state key="normal" image="snow"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summary" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MXt-Fl-OSJ">
                                 <rect key="frame" x="264" y="197" width="73" height="21"/>
@@ -299,7 +299,7 @@
                             <constraint firstItem="bGW-8E-24z" firstAttribute="leading" secondItem="SRQ-O3-4HK" secondAttribute="trailing" constant="20" id="QuB-Aq-ilF"/>
                             <constraint firstItem="dUY-6A-2iJ" firstAttribute="leading" secondItem="bGW-8E-24z" secondAttribute="trailing" constant="20" id="SqF-O2-q2L"/>
                             <constraint firstItem="gvE-Cm-agP" firstAttribute="top" secondItem="bGW-8E-24z" secondAttribute="bottom" constant="8" id="VGO-P0-Ja1"/>
-                            <constraint firstItem="okp-ip-IiY" firstAttribute="top" secondItem="MXt-Fl-OSJ" secondAttribute="bottom" constant="57" id="WtQ-MG-kZC"/>
+                            <constraint firstItem="okp-ip-IiY" firstAttribute="top" secondItem="MXt-Fl-OSJ" secondAttribute="bottom" constant="52" id="WtQ-MG-kZC"/>
                             <constraint firstItem="bGW-8E-24z" firstAttribute="width" secondItem="SRQ-O3-4HK" secondAttribute="width" id="X5g-8X-QNi"/>
                             <constraint firstItem="b8u-Rh-HWC" firstAttribute="height" secondItem="SRQ-O3-4HK" secondAttribute="height" id="ame-5d-ZRH"/>
                             <constraint firstItem="dUY-6A-2iJ" firstAttribute="width" secondItem="bGW-8E-24z" secondAttribute="width" id="b2L-li-SQE"/>
@@ -312,7 +312,7 @@
                             <constraint firstItem="4ac-gt-kfz" firstAttribute="top" secondItem="Hjv-NE-Yad" secondAttribute="bottom" constant="8" id="iP6-Qu-eYR"/>
                             <constraint firstItem="b8u-Rh-HWC" firstAttribute="width" secondItem="SRQ-O3-4HK" secondAttribute="height" multiplier="1:1" id="kGg-wt-EAl"/>
                             <constraint firstItem="SRQ-O3-4HK" firstAttribute="leading" secondItem="b8u-Rh-HWC" secondAttribute="trailing" constant="20" id="keG-0j-4e5"/>
-                            <constraint firstItem="okp-ip-IiY" firstAttribute="centerY" secondItem="pQs-sj-DG3" secondAttribute="centerY" constant="-10" id="kzW-iD-Jdl"/>
+                            <constraint firstItem="okp-ip-IiY" firstAttribute="centerY" secondItem="pQs-sj-DG3" secondAttribute="centerY" id="kzW-iD-Jdl"/>
                             <constraint firstItem="bOC-RR-srP" firstAttribute="top" secondItem="dUY-6A-2iJ" secondAttribute="bottom" constant="8" id="n2B-bA-7Yt"/>
                             <constraint firstItem="Hv5-qP-XPS" firstAttribute="top" secondItem="UzK-wZ-vzt" secondAttribute="bottom" constant="8" id="oDX-gC-7ug"/>
                             <constraint firstItem="Hv5-qP-XPS" firstAttribute="centerX" secondItem="UzK-wZ-vzt" secondAttribute="centerX" id="oc5-gV-YJQ"/>
@@ -368,6 +368,5 @@
         <image name="Up-30" width="30" height="30"/>
         <image name="default" width="30" height="30"/>
         <image name="snow" width="59" height="60"/>
-        <image name="wind" width="60" height="38"/>
     </resources>
 </document>

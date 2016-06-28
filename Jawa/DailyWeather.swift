@@ -13,8 +13,6 @@ struct DailyWeather: JSONDecodable {
     let weeklySummary: String
     let weeklyIcon: String
     
-    
-    
     init?(JSON: [String : AnyObject]) {
         
         guard let weeklyWeatherList = JSON["data"] as? [[String : AnyObject]],
@@ -25,7 +23,5 @@ struct DailyWeather: JSONDecodable {
         self.weeklyWeather = weeklyWeatherList
         self.weeklySummary = weeklySummary
         self.weeklyIcon = weeklyIcon
-        
     }
-    
 }

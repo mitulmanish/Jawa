@@ -56,6 +56,7 @@ struct WeeklyWeather: JSONDecodable {
         } else {
             precipChance = nil
         }
+        
         summary = dailyWeatherDict["summary"] as? String
        
         if let sunriseDate = dailyWeatherDict["sunriseTime"] as? Double {
@@ -74,8 +75,6 @@ struct WeeklyWeather: JSONDecodable {
         
     }
 
-    
-    
     func timeStringFromUnixTime(unixTime: Double) -> String {
         let date = NSDate(timeIntervalSince1970: unixTime)
         
@@ -95,10 +94,10 @@ struct WeeklyWeather: JSONDecodable {
 
 extension WeeklyWeather {
     var temperatureMinString: String {
-        return "\(temperatureMinCelcius)º↓"
+        return "\(temperatureMinCelcius)º"
     }
     
     var temperatureMaxString: String {
-        return "↑\(temperatureMaxCelcius)º"
+        return "\(temperatureMaxCelcius)º"
     }
 }

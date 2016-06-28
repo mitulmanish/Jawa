@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf08e479-bbea-430d-8383-4d10e63fec92" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jawa/APIClient.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jawa/CurrentWeatherSnapShot.swift" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jawa/ForecastAPIClient.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jawa/CurrentWeatherSnapShot.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jawa/APIClient.swift" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jawa/WeatherIconFactory.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jawa/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/Jawa/Assets.xcassets/AppIcon.appiconset/Contents.json" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/Jawa/ViewController.swift" afterPath="$PROJECT_DIR$/Jawa/WeatherViewController.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jawa.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Jawa.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jawa/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/Jawa/Assets.xcassets/AppIcon.appiconset/Contents.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jawa/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/Jawa/Base.lproj/Main.storyboard" />
     </list>
     <ignored path="Jawa.iws" />
@@ -25,12 +25,12 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Jawa" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="APIClient.swift" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jawa/APIClient.swift">
           <provider selected="true" editor-type-id="text-editor">
@@ -54,7 +54,7 @@
       <file leaf-file-name="ForecastAPIClient.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jawa/ForecastAPIClient.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5687204">
+            <state vertical-scroll-proportion="0.0">
               <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
               <folding />
             </state>
@@ -82,7 +82,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="730" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -188,8 +188,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="730" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -237,7 +237,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jawa/ForecastAPIClient.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5687204">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jawa/APIClient.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="52" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jawa/CurrentWeatherSnapShot.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jawa/ForecastAPIClient.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
           <folding />
         </state>

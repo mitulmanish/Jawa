@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DD26B1E31D20D16100E1F4BC /* WeeklyWeatherTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD26B1E21D20D16100E1F4BC /* WeeklyWeatherTableTableViewController.swift */; };
 		DD26B1E51D20D38600E1F4BC /* WeeklyWeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD26B1E41D20D38500E1F4BC /* WeeklyWeatherTableViewCell.swift */; };
+		DD88E3161D22790800C4C16C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD88E3151D22790800C4C16C /* MapKit.framework */; };
+		DD88E3181D227B3700C4C16C /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88E3171D227B3700C4C16C /* APIKey.swift */; };
 		DDAD92D01D1D6F500001030B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAD92CF1D1D6F500001030B /* AppDelegate.swift */; };
 		DDAD92D51D1D6F500001030B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAD92D31D1D6F500001030B /* Main.storyboard */; };
 		DDAD92D71D1D6F500001030B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAD92D61D1D6F500001030B /* Assets.xcassets */; };
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		DD26B1E21D20D16100E1F4BC /* WeeklyWeatherTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyWeatherTableTableViewController.swift; sourceTree = "<group>"; };
 		DD26B1E41D20D38500E1F4BC /* WeeklyWeatherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyWeatherTableViewCell.swift; sourceTree = "<group>"; };
+		DD88E3151D22790800C4C16C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DD88E3171D227B3700C4C16C /* APIKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		DDAD92CC1D1D6F500001030B /* Jawa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jawa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDAD92CF1D1D6F500001030B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDAD92D41D1D6F500001030B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD88E3161D22790800C4C16C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +59,7 @@
 		DDAD92C31D1D6F500001030B = {
 			isa = PBXGroup;
 			children = (
+				DD88E3151D22790800C4C16C /* MapKit.framework */,
 				DDAD92CE1D1D6F500001030B /* Jawa */,
 				DDAD92CD1D1D6F500001030B /* Products */,
 			);
@@ -88,6 +94,7 @@
 				DDAD92E81D1F961F0001030B /* ForecastAPIClient.swift */,
 				DDFD2F851D20F8A00046484B /* WeeklyWeather.swift */,
 				DDFD2F871D21139E0046484B /* DailyWeather.swift */,
+				DD88E3171D227B3700C4C16C /* APIKey.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -153,6 +160,11 @@
 					DDAD92CB1D1D6F500001030B = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = RNF8E69GKB;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -198,6 +210,7 @@
 				DDFD2F8D1D215B480046484B /* DetailedWeatherViewController.swift in Sources */,
 				DDAD92E31D1E40820001030B /* CurrentWeatherSnapShot.swift in Sources */,
 				DDAD92E71D1ED2530001030B /* APIClient.swift in Sources */,
+				DD88E3181D227B3700C4C16C /* APIKey.swift in Sources */,
 				DD26B1E51D20D38600E1F4BC /* WeeklyWeatherTableViewCell.swift in Sources */,
 				DDAD92D01D1D6F500001030B /* AppDelegate.swift in Sources */,
 				DDFD2F861D20F8A00046484B /* WeeklyWeather.swift in Sources */,

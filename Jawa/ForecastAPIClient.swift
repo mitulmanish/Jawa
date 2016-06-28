@@ -58,6 +58,7 @@ final class ForecastAPIClient: APIClient {
     
     func fetchWeatherData(weatherSelection: WeatherSelection, coordinate: Coordinate, completion: APIResult<CurrentWeatherSnapShot> -> Void) {
         let request = Forecast.Current(apiKey: self.apiToken, locationCoordinate: coordinate).request
+        
         fetch(request, parse: { (json) -> CurrentWeatherSnapShot? in
             
             if let currentWeatherDictionary = json[weatherSelection.rawValue] as? [String : AnyObject] {
@@ -72,6 +73,7 @@ final class ForecastAPIClient: APIClient {
     
     func fetchWeeklyWeatherData(weatherSelection: WeatherSelection, coordinate: Coordinate, completion: APIResult<DailyWeather> -> Void) {
         let request = Forecast.Current(apiKey: self.apiToken, locationCoordinate: coordinate).request
+        
         fetch(request, parse: { (json) -> DailyWeather? in
             
             if let currentWeatherDictionary = json[weatherSelection.rawValue] as? [String : AnyObject] {

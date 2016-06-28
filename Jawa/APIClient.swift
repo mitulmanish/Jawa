@@ -84,8 +84,7 @@ extension APIClient {
                 }
                 return
             }
-        
-        
+            
             if let jsonData = parse(json) {
                 completion(.Success(jsonData))
             } else {
