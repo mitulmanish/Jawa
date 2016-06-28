@@ -35,7 +35,7 @@ class WeeklyWeatherTableTableViewController: UITableViewController, CLLocationMa
         foreCastAPIClient = ForecastAPIClient(apikey: APIKey.WeatherForecast.rawValue)
         // if location access is not granted, use the location coordinates for Melbourne ❤️ , Australia
         checkPermission() ? fetchWeatherData(getLocationCoordinates()) : fetchWeatherData(defaultCoordinate)
-        
+        //fetchWeatherData(defaultCoordinate)
     }
     
     override func viewWillAppear(animated: Bool) {
