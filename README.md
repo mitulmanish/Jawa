@@ -1,4 +1,4 @@
-# Jawa
+# Jawa (Just Another Weather App)
 
 ### A minimal weather App 
 
